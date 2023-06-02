@@ -26,7 +26,41 @@
 }
 
 .Menu ul li {
-  margin: 20px;
+  margin: 20px 20px;
+}
+
+.Menu ul li::before,
+ul li::after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: 0.3s all ease-in-out;
+}
+
+ul li::before {
+  top: 2px;
+  left: 0;
+}
+
+ul li::after {
+  bottom: 0;
+  right: 0;
+}
+
+ul li:hover::before {
+  right: 0;
+  left: auto;
+  width: 100%;
+  background-color: #FAFFD1;
+}
+
+ul li:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+  background-color: #FAFFD1;
 }
 
 .Menu li a {
@@ -34,4 +68,10 @@
   font-weight: 500;
   color: #fff;
   text-decoration: none;
+  transition: 0.3s all ease-in-out;
+}
+
+ul li:hover a {
+  color: #5da8da;
+
 }
