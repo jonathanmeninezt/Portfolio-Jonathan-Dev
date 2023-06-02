@@ -3,14 +3,16 @@ import React from "react";
 
 import VideoPlayer from "../VideoPlayer.jsx";
 import Menu from "../components/Menu";
-import Text from "../components/Text.jsx";
+import Home from "../components/Home";
+import About from "../components/About";
 
 const App = (props) => {
   return (
     <div className="App">
       <VideoPlayer />
       <Menu />
-      <Text />
+      <Home />
+      <About />
     </div>
   );
 };

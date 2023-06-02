@@ -13,11 +13,13 @@
   position: absolute;
   top: 0;
   width: 100%;
-
+  height: 80px;
 
   display: flex;
-  justify-content:end ;
+  justify-content:end;
+
 }
+
 
 .Menu ul {
   display: flex;
@@ -53,22 +55,23 @@ ul li:hover::before {
   right: 0;
   left: auto;
   width: 100%;
-  background-color: #FAFFD1;
+  background-color: #df0000;
 }
 
 ul li:hover::after {
   right: auto;
   left: 0;
   width: 100%;
-  background-color: #FAFFD1;
+  background-color: #0bdeff;
 }
 
 .Menu li a {
-  font-size: 1.3em;
+  font-size: 1.1rem;
   font-weight: 500;
   color: #fff;
   text-decoration: none;
   transition: 0.3s all ease-in-out;
+  font-family: 'Star jedi ';
 }
 
 ul li:hover a {

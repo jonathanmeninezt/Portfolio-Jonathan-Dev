@@ -1,0 +1,48 @@
+.Home {
+  width: 45%;
+  height: 100px;
+  position:absolute;
+  top: 80px;
+  font-size: 1.5rem;
+  color: white;
+  padding: 160px;
+
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+
+
+}
+
+.Home h1 {
+  margin-left: 50px;
+  color: #5da8da;
+  font-family: 'Star jedi Outline';
+  letter-spacing: 2px;
+
+}
+
+.Home h2 {
+  font-family: 'Star jedi Outline';
+}
+
+.Home p {
+  margin-left: 110px;
+  font-family: 'Star jedi Outline';
+
+}
+
+.center {
+  width: 100%;
+  margin-top: 90px;
+
+  display: flex;
+  justify-content:end;
+  gap: 30px;
+
+}
+
+.icon {
+  margin-inline-end: 500px;
+
+}
