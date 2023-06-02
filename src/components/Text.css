@@ -1,0 +1,22 @@
+.Text {
+  width: 50%;
+  position:absolute;
+  top: 0;
+  font-size: 1.5rem;
+  color: white;
+  padding: 160px;
+
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+}
+
+.Text h1 {
+  margin-left: 50px;
+
+}
+
+.Text p {
+  margin-left: 110px;
+
+}
