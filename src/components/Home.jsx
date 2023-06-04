@@ -11,8 +11,12 @@ const Home = (props) => {
         <h1>Jonathan Meninez</h1>
         <p>Desenvolvedor Front-End</p>
         <div className="center">
-          <button className="btn">{<FaGithub />}GitHub</button>
-          <button className="btn">{<FaLinkedin />} Linkedin</button>
+          <button className="btn">
+            {<FaGithub className="icon" />} GitHub
+          </button>
+          <button className="btn">
+            {<FaLinkedin className="icon" />} Linkedin
+          </button>
         </div>
       </div>
     </React.Fragment>

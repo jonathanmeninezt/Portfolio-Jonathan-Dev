@@ -42,7 +42,30 @@
 
 }
 
-.icon {
-  margin-inline-end: 500px;
+.btn {
+  width: 35%;
+  padding:  10px;
+  border-radius: 3px;
+  border: 1px solid white;
+  background: linear-gradient(to left, #B3FFAB, #12FFF7);
+  font-size: 1rem;
+  font-family: 'Oswald';
+  font-weight: 800;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 
+
+}
+
+.btn:hover{
+  background: linear-gradient(to left, #ff5c5c, #5da8da);
+
+}
+
+.icon {
+  font-size: 1.3rem;
 }
