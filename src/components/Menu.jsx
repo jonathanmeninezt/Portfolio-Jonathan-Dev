@@ -1,29 +1,60 @@
 import "./Menu.css";
 import React from "react";
 
-const Menu = (props) => {
+import { useState } from "react";
+import hit from "../music/sabre.wav";
+
+const Menu = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const mouseEnter = () => {
+    setIsHovered(true);
+    playSound();
+  };
+
+  const mouseLeave = () => {
+    setIsHovered(false);
+  };
+
+  const playSound = () => {
+    const audio = new Audio(hit);
+    audio.play();
+  };
+
   return (
     <React.Fragment>
       <div className="Menu">
         <nav>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} href="#">
+                Home
+              </a>
             </li>
             <li>
-              <a href="#">Sobre</a>
+              <a onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} href="#">
+                Sobre
+              </a>
             </li>
             <li>
-              <a href="#">Habilidades</a>
+              <a onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} href="#">
+                Habilidades
+              </a>
             </li>
             <li>
-              <a href="#">Portfólio</a>
+              <a onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} href="#">
+                Portfólio
+              </a>
             </li>
             <li>
-              <a href="#">Eu Faço Sites!</a>
+              <a onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} href="#">
+                Eu Faço Sites!
+              </a>
             </li>
             <li>
-              <a href="#">Contatos</a>
+              <a onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} href="#">
+                Contatos
+              </a>
             </li>
           </ul>
         </nav>
