@@ -58,12 +58,14 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  transition: 1s;
 
 
 }
 
 .btn:hover{
-  background: linear-gradient(to left, #5a5151, #5da8da);
+
+  background:  #5da8da;
 
 
 }
