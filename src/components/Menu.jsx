@@ -1,5 +1,7 @@
 import "./Menu.css";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 import { useState } from "react";
 import hit from "../music/sabre.wav";
@@ -24,6 +26,7 @@ const Menu = () => {
   return (
     <React.Fragment>
       <div className="Menu">
+        <FontAwesomeIcon icon={faBars} color="white" />
         <nav>
           <ul>
             <li>
