@@ -6,6 +6,7 @@ import Menu from "../components/Menu";
 import Home from "../components/Home";
 import About from "../components/About";
 import Attributes from "../components/Attributes";
+import Portfolio from "../components/Portfolio";
 
 const App = (props) => {
   return (
@@ -15,6 +16,7 @@ const App = (props) => {
       <Home />
       <About />
       <Attributes />
+      <Portfolio />
     </div>
   );
 };
