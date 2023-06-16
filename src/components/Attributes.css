@@ -12,12 +12,15 @@
 }
 
 .Attributes h1 {
-  font-size: 26px;
+  font-size: 28px;
   font-family: 'Star jedi ';
   letter-spacing: 3px;
   color: #5da8da;
   text-align: center;
-  background-color: green;
+  position: absolute;
+  top: 240%;
+  left: 43%;
+
 }
 
 .AtributesContainer {
