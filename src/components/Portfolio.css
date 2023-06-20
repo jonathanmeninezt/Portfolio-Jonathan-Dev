@@ -1,7 +1,16 @@
-.portfolio {
-  width: 50%;
+.Portfolio {
+  width: 100%;
   height: 400px;
-  background-color: rgb(45, 12, 95);
   margin: 0 auto;
-  position: absolute;
+  background-color: rgb(73, 73, 73);
+  position: relative;
+  top: 730px;
+}
+
+.Portfolio h1 {
+  font-size: 28px;
+  font-family: 'Star jedi ';
+  letter-spacing: 3px;
+  color: #5da8da;
+text-align: center;
 }
