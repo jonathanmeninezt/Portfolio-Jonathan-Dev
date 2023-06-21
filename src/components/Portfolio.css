@@ -2,7 +2,7 @@
   width: 100%;
   height: 400px;
   margin: 0 auto;
-  background-color: rgb(73, 73, 73);
+  background: linear-gradient(to right, #000000, #212121);
   position: relative;
   top: 730px;
 }
