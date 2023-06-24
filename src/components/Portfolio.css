@@ -49,3 +49,9 @@ text-align: center;
 .box-six {
   background-color: rgb(25, 107, 222);
 }
+
+.box-portfolio {
+  display: flex;
+  justify-content: center;
+
+}

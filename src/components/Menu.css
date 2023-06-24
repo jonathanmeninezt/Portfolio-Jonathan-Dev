@@ -79,3 +79,7 @@ ul li:hover a {
   color: #5da8da;
 
 }
+
+.Menu > .iconBars {
+  display: none;
+}
