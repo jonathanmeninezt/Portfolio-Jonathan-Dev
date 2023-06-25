@@ -7,6 +7,7 @@ import Home from "../components/Home";
 import About from "../components/About";
 import Attributes from "../components/Attributes";
 import Portfolio from "../components/Portfolio";
+import Contact from "../components/Contact";
 
 const App = (props) => {
   return (
@@ -17,6 +18,7 @@ const App = (props) => {
       <About />
       <Attributes />
       <Portfolio />
+      <Contact />
     </div>
   );
 };
