@@ -41,36 +41,30 @@
 }
 
 .AttributesImgJs {
-  /* width: 120px;
-  height: 120px;
-  border: 1px solid #5da8da;
-  border-radius: 30px;
-  background-color: rgb(43, 39, 39);
-  display: flex;
-  justify-content: center;
-  align-items: center; */
-
   position: relative;
   text-align: center;
-  background-color: #212121;
-  width: 12rem;
-  aspect-ratio: 1.1;
-  padding: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 200px solid #525559;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top-left-radius: 5.5rem;
+
   cursor: pointer;
   transition: 0.2s;
-border-bottom: 2px solid #A40EE4 ;
+/* border-bottom: 2px solid #A40EE4 ; */
 
 }
 
-.AttributesImgJs:hover {
+/* .AttributesImgJs:hover {
   position: relative;
   text-align: center;
   background-color: #212121;
+
   width: 12rem;
   aspect-ratio: 1;
   padding: 0;
@@ -84,7 +78,7 @@ border-bottom: 2px solid #A40EE4 ;
   transition: 0.2s;
 border-bottom: 2px solid #00c7f4 ;
 
-}
+} */
 
 .logoJs {
   margin-left: auto;
