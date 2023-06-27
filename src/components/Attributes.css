@@ -31,8 +31,6 @@
   top: 270%;
   left: 18%;
 
-
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,11 +78,11 @@ border-bottom: 2px solid #00c7f4 ;
 
 } */
 
-.logoJs {
-  margin-left: auto;
-  margin-right: auto;
+.AttributesImgJs > img.logoJs {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 300px;
   display: block;
-
 
 
 }
