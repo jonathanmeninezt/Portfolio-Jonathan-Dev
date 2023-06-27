@@ -43,46 +43,23 @@
   text-align: center;
   width: 0;
   height: 0;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
-  border-bottom: 200px solid #525559;
-
+  width: 190px;
+  height: 254px;
+  margin: 100px 40px;
+  background: #171717;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 0px 3px 1px #00000088;
+          box-shadow: 0px 0px 3px 1px #00000088;
   cursor: pointer;
-  transition: 0.2s;
+
 /* border-bottom: 2px solid #A40EE4 ; */
-
-}
-
-/* .AttributesImgJs:hover {
-  position: relative;
-  text-align: center;
-  background-color: #212121;
-
-  width: 12rem;
-  aspect-ratio: 1;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50% #fff;
-
-  cursor: pointer;
-  transition: 0.2s;
-border-bottom: 2px solid #00c7f4 ;
-
-} */
-
-.AttributesImgJs > img.logoJs {
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 300px;
-  display: block;
-
 
 }

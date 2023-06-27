@@ -15,16 +15,24 @@ const Attributes = (props) => {
       <h1>Habilidades</h1>
       <div className="AtributesContainer">
         <div className="AttributesImgJs">
-          <img className="logoJs" src={logoJs} />
+          <div className="content">
+            <img className="logoJs" src={logoJs} />
+          </div>
         </div>
         <div className="AttributesImgJs">
-          <img className="logoJs" src={logoHtml} />
+          <div className="content">
+            <img className="logoJs" src={logoHtml} />
+          </div>
         </div>
         <div className="AttributesImgJs">
-          <img className="logoJs" src={logoCss} />
+          <div className="content">
+            <img className="logoJs" src={logoCss} />
+          </div>
         </div>
         <div className="AttributesImgJs">
-          <img className="logoJs" src={logoRect} />
+          <div className="content">
+            <img className="logoJs" src={logoRect} />
+          </div>
         </div>
       </div>
     </div>
