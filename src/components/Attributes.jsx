@@ -6,6 +6,7 @@ import logoHtml from "../image/html.svg";
 import logoCss from "../image/css.svg";
 import logoRect from "../image/react.svg";
 import gifEstrela from "../assets/fundoestrela.gif";
+import jSlogo from "../image/icons8-javascript-100.svg";
 
 const Attributes = (props) => {
   return (

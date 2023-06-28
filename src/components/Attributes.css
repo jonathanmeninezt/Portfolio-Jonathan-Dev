@@ -67,7 +67,7 @@
 
 .AttributesImgJs .content {
   border-radius: 5px;
-  background: #171717;
+  background: linear-gradient(to right, #000000, #212121);
   width: 186px;
   height: 250px;
   z-index: 1;
@@ -82,9 +82,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}.content img.logoJs {
-  background-color: transparent;
 }
+
+.content img.logoJs {
+  opacity: 0.5;
+
+
+}
+
 
 .content::before {
   opacity: 0;
@@ -109,14 +114,14 @@
   content: ' ';
   position: absolute;
   display: block;
-  width: 120px;
-  height: 360px;
+  width: 80px;
+  height: 410px;
   background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#ff2288), color-stop(#387EF0), to(transparent));
-  background: linear-gradient(90deg, transparent, #ff2243b2, #387EF0, transparent);
+  background: linear-gradient(90deg, transparent, #12FFF7, #862ff8e3, transparent);
   -webkit-transition: opacity 300ms;
   transition: opacity 300ms;
-  -webkit-animation: rotation_9018 3000ms infinite linear;
-          animation: rotation_9018 3000ms infinite linear;
+  -webkit-animation: rotationEfect 3000ms infinite linear;
+          animation: rotationEfect 3000ms infinite linear;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
 }
@@ -140,7 +145,7 @@
 
 
 
-@-webkit-keyframes rotation_9018 {
+@-webkit-keyframes rotationEfect {
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
@@ -152,7 +157,7 @@
   }
 }
 
-@keyframes rotation_9018 {
+@keyframes rotationEfect {
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
