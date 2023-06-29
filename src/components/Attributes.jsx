@@ -18,21 +18,25 @@ const Attributes = (props) => {
         <div className="AttributesImgJs">
           <div className="content">
             <img className="logoJs" src={logoJs} />
+            <p>JavaScript</p>
           </div>
         </div>
         <div className="AttributesImgJs">
           <div className="content">
             <img className="logoJs" src={logoHtml} />
+            <p>HTML5</p>
           </div>
         </div>
         <div className="AttributesImgJs">
           <div className="content">
             <img className="logoJs" src={logoCss} />
+            <p>CSS3</p>
           </div>
         </div>
         <div className="AttributesImgJs">
           <div className="content">
             <img className="logoJs" src={logoRect} />
+            <p>React.js</p>
           </div>
         </div>
         <div className="AttributesImgJs">

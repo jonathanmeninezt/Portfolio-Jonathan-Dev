@@ -73,7 +73,7 @@
   height: 250px;
   z-index: 1;
   padding: 20px;
-  color: white;
+  color:#387ef000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,13 +83,34 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          flex-direction: column;
 }
 
 .content img.logoJs {
   opacity: 0.5;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 
 
 }
+
+.content p {
+  font-size: 1.2rem;
+  font-family: 'Star jedi Hollow ';
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  margin-top: 20px;
+  transition: 1.4s;
+
+}
+
+.content:hover {
+  color:#12FFF7;
+
+}
+
+
 
 
 .content::before {
