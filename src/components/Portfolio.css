@@ -4,7 +4,7 @@
   margin: 0 auto;
   background: linear-gradient(to right, #000000, #212121);
   position: relative;
-  top: 730px;
+  top: -5px;
 }
 
 .Portfolio h1 {
@@ -21,7 +21,7 @@ text-align: center;
   display: flex;
 
   position: relative;
-  top: 280px;
+  bottom: 400px;
 
 }
 

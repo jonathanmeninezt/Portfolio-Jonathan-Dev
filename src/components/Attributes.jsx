@@ -35,6 +35,31 @@ const Attributes = (props) => {
             <img className="logoJs" src={logoRect} />
           </div>
         </div>
+        <div className="AttributesImgJs">
+          <div className="content">
+            <img className="logoJs" src={logoRect} />
+          </div>
+        </div>
+        <div className="AttributesImgJs">
+          <div className="content">
+            <img className="logoJs" src={logoRect} />
+          </div>
+        </div>
+        <div className="AttributesImgJs">
+          <div className="content">
+            <img className="logoJs" src={logoRect} />
+          </div>
+        </div>
+        <div className="AttributesImgJs">
+          <div className="content">
+            <img className="logoJs" src={logoRect} />
+          </div>
+        </div>
+        <div className="AttributesImgJs">
+          <div className="content">
+            <img className="logoJs" src={logoRect} />
+          </div>
+        </div>
       </div>
     </div>
   );
