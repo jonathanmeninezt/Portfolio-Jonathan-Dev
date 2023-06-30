@@ -7,6 +7,7 @@ import logoCss from "../image/css.svg";
 import logoRect from "../image/react.svg";
 import gifEstrela from "../assets/fundoestrela.gif";
 import jSlogo from "../image/icons8-javascript-100.svg";
+import figmaLogo from "../image/figma.svg";
 
 const Attributes = (props) => {
   return (
@@ -41,7 +42,7 @@ const Attributes = (props) => {
         </div>
         <div className="AttributesImgJs">
           <div className="content">
-            <img className="logoJs" src={logoRect} />
+            <img className="logoJs" src={figmaLogo} />
           </div>
         </div>
         <div className="AttributesImgJs">
