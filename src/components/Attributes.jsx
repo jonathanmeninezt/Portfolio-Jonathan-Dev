@@ -8,6 +8,8 @@ import logoRect from "../image/react.svg";
 import gifEstrela from "../assets/fundoestrela.gif";
 import jSlogo from "../image/icons8-javascript-100.svg";
 import figmaLogo from "../image/figma.svg";
+import nextLogo from "../image/nextjs.svg";
+import postgreLogo from "../image/icons8-postgresql.svg";
 
 const Attributes = (props) => {
   return (
@@ -43,16 +45,19 @@ const Attributes = (props) => {
         <div className="AttributesImgJs">
           <div className="content">
             <img className="logoJs" src={figmaLogo} />
+            <p>Figma</p>
           </div>
         </div>
         <div className="AttributesImgJs">
           <div className="content">
-            <img className="logoJs" src={logoRect} />
+            <img className="logoJs" src={nextLogo} />
+            <p>Next.js</p>
           </div>
         </div>
         <div className="AttributesImgJs">
           <div className="content">
-            <img className="logoJs" src={logoRect} />
+            <img className="logoJs" src={postgreLogo} />
+            <p>PostgreSQL</p>
           </div>
         </div>
         <div className="AttributesImgJs">
