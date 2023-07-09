@@ -16,8 +16,9 @@ const App = (props) => {
       <Menu />
       <Home />
       <About />
-      <Attributes />
       <Portfolio />
+      <Attributes />
+
       <Contact />
     </div>
   );
