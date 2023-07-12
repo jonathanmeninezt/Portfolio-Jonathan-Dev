@@ -67,7 +67,7 @@ var settings = {
     },
   ],
 };
-const SliderComp = () => {
+const PortfolioSlide = () => {
   const arrowRef = useRef(null);
   let sliderProject = "";
   sliderProject = data.map((item, i) => <Project item={item} key={i} />);

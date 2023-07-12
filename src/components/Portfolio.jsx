@@ -17,7 +17,7 @@ const Portfolio = (props) => {
   );
 };
 
-export default Project;
+export default Portfolio;
 
 const Container = styled.div`
   height: 10rem;
