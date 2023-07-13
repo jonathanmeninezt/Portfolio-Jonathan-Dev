@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import SliderComp from "./Slider";
+import PortfolioSlide from "./PortfolioSlide";
 import { Zoom } from "react-awesome-reveal";
 
 const Portfolios = () => {

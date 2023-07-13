@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
-import Project from "./Project";
+import Portfolio from "./Portfolio";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from "styled-components";
 
@@ -88,7 +88,7 @@ const PortfolioSlide = () => {
   );
 };
 
-export default SliderComp;
+export default PortfolioSlide;
 
 const Container = styled.div`
   position: relative;
