@@ -6,7 +6,7 @@ import Menu from "../components/Menu";
 import Home from "../components/Home";
 import About from "../components/About";
 import Attributes from "../components/Attributes";
-import Portfolio from "../components/Portfolio";
+import Portfolios from "../components/Portfolios";
 import Contact from "../components/Contact";
 
 const App = (props) => {
