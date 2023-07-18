@@ -17,7 +17,7 @@ const Portfolios = () => {
         </p>
       </Zoom>
       <Slide>
-        <SliderComp />
+        <PortfolioSlide />
       </Slide>
     </Container>
   );

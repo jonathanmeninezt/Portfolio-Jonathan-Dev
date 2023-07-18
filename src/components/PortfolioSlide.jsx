@@ -70,7 +70,7 @@ var settings = {
 const PortfolioSlide = () => {
   const arrowRef = useRef(null);
   let sliderProject = "";
-  sliderProject = data.map((item, i) => <Project item={item} key={i} />);
+  sliderProject = data.map((item, i) => <Portfolio item={item} key={i} />);
   return (
     <Container>
       <Slider ref={arrowRef} {...settings}>
