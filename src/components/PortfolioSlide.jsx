@@ -77,10 +77,10 @@ const PortfolioSlide = () => {
         {sliderProject}
       </Slider>
       <Buttons>
-        <button onClick={() => arrowRef.current.slickPrev()} className="back">
+        <button onClick={() => arrowRef.current.slickPrev()} className="<">
           <IoIosArrowBack />
         </button>
-        <button onClick={() => arrowRef.current.slickNext()} className="next">
+        <button onClick={() => arrowRef.current.slickNext()} className=">">
           <IoIosArrowForward />
         </button>
       </Buttons>
