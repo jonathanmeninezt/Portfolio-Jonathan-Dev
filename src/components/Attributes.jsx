@@ -62,7 +62,7 @@ const Attributes = (props) => {
         </div>
         <div className="AttributesImgJs">
           <div className="content">
-            <img className="logoJs" src={jSlogo} />
+            <img className="logoJs" src={nextLogo} />
           </div>
         </div>
         <div className="AttributesImgJs">
