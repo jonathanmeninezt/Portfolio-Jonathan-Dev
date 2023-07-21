@@ -8,6 +8,7 @@ import About from "../components/About";
 import Attributes from "../components/Attributes";
 import Portfolios from "../components/Portfolios";
 import Contact from "../components/Contact";
+import Portfolio from "../components/Portfolio";
 
 const App = (props) => {
   return (
@@ -18,8 +19,16 @@ const App = (props) => {
       <About />
       <Portfolios />
       <Attributes />
+      <Container>
+        <Contact />
+        <LightColor>
+          <Portfolio />
+        </LightColor>
 
-      <Contact />
+        <LightColor>
+          <Footer />
+        </LightColor>
+      </Container>
     </div>
   );
 };
