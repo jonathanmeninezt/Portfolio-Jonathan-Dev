@@ -10,11 +10,7 @@ const Portfolios = () => {
         <h1>
           Recent <span className="green">Projects</span>
         </h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto
-          doloremque voluptate excepturi porro sed totam quis animi dolorum
-          rerum earum.
-        </p>
+        <p>Conversão de Moedas</p>
       </Zoom>
       <Slide>
         <PortfolioSlide />
