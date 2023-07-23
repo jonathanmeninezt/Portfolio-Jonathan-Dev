@@ -24,10 +24,6 @@ const App = (props) => {
         <LightColor>
           <Portfolio />
         </LightColor>
-
-        <LightColor>
-          <Footer />
-        </LightColor>
       </Container>
     </div>
   );
